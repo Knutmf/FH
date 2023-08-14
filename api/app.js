@@ -135,7 +135,7 @@ console.log('passport start');
 app.get('/auth/discord/callback',
 passport.authenticate('discord', { failureRedirect: '/forbidden' }),
 (req, res) => {
-res.redirect('http://localhost:3000/router/dashboard');
+res.redirect('https://forgottenheralds-alpha.vercel.app/router/dashboard');
 }
 );
 
@@ -157,7 +157,7 @@ app.get('/', (req, res) => {
 
 // Any route that requires authentication can use the checkAuth middleware
 app.get('/dashboard', checkAuth, (req, res) => {
-  res.redirect('http://localhost:3000/router/dashboard');
+  res.redirect('https://forgottenheralds-alpha.vercel.app/router/dashboard');
 });
 
 app.get('/user', (req, res) => {
