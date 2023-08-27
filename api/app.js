@@ -12,7 +12,7 @@ const mongoose = require('mongoose');
 
 //MongoDB database
 
-mongoose.connect( "mongodb+srv://GhostAdmin1:Trekids9@clusterfh.enmxjvj.mongodb.net/",
+mongoose.connect( ,
 {
   useNewUrlParser: true,
   useUnifiedTopology: true
