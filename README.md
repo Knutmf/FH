@@ -1,4 +1,4 @@
-Project files for a hobby group website. Incomplete and discontinued.
+Project files for a hobby group website ca 2023. Incomplete and discontinued.
 
 
 
