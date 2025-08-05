@@ -22,6 +22,6 @@ passport.use(new DiscordStrategy({
     scope: ['identify', 'email'] // Add more scopes if needed.
     }, function(accessToken, refreshToken, profile, done) {
     // This is where you'd typically link your Discord profile to a user in your database.
-    // For the sake of simplicity, we'll just pass the profile data forward.
     return done(null, profile);
+
     }));
